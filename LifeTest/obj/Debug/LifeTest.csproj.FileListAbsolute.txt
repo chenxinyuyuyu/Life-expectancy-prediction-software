@@ -1,0 +1,14 @@
+D:\dogWPF\LifeTest\bin\Debug\LifeTest.exe
+D:\dogWPF\LifeTest\bin\Debug\LifeTest.pdb
+D:\dogWPF\LifeTest\obj\Debug\LifeTest.csproj.AssemblyReference.cache
+D:\dogWPF\LifeTest\obj\Debug\MainWindow.g.cs
+D:\dogWPF\LifeTest\obj\Debug\App.g.cs
+D:\dogWPF\LifeTest\obj\Debug\LifeTest_MarkupCompile.cache
+D:\dogWPF\LifeTest\obj\Debug\LifeTest_MarkupCompile.lref
+D:\dogWPF\LifeTest\obj\Debug\MainWindow.baml
+D:\dogWPF\LifeTest\obj\Debug\LifeTest.g.resources
+D:\dogWPF\LifeTest\obj\Debug\LifeTest.Properties.Resources.resources
+D:\dogWPF\LifeTest\obj\Debug\LifeTest.csproj.GenerateResource.cache
+D:\dogWPF\LifeTest\obj\Debug\LifeTest.csproj.CoreCompileInputs.cache
+D:\dogWPF\LifeTest\obj\Debug\LifeTest.exe
+D:\dogWPF\LifeTest\obj\Debug\LifeTest.pdb

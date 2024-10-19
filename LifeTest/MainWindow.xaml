@@ -1,0 +1,42 @@
+﻿<Window x:Class="LifeTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LifeTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="9*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="寿命预测" FontSize="30" HorizontalAlignment="Center"/>
+        <StackPanel Grid.Row="1" >
+            <TextBlock Margin="10" Text="输入" FontSize="25" Foreground="Blue"/>
+        </StackPanel>
+        <Grid Grid.Row="3" HorizontalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="200"/>
+        </Grid.ColumnDefinitions>
+            <TextBlock Text="用户名" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center"/>
+            <TextBox x:Name="txtUserName" Grid.Row="0" Grid.Column="1" Margin="3"/>
+            <TextBlock Text="第一次极其痛苦并有新生意识产生的年龄：" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center"/>
+            <TextBox x:Name="txtTime" Grid.Row="1" Grid.Column="1" Margin="3"/>
+            <CheckBox Grid.ColumnSpan="2" Content="记住此次信息" Grid.Row="2" Grid.Column="1" Margin="3"/>
+            <Button Grid.Row="3" Grid.Column="2" Content="查询" Margin="3" Click="Button_Click" />
+        </Grid>
+    
+    </Grid>
+</Window>
